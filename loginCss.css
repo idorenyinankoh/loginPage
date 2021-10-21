@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: Playfair Display;
+    color: blue;
+    margin: 0;
+}
+
+form {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    margin: 5px auto auto auto;
+    height: 30px;
+}
+
+select {
+    width: 100%;
+    margin: 5px auto auto auto;
+    height: 30px;
+}
+
+button {
+    border-radius: 0.5rem 0 0.5rem 0;
+    background-color: blue;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    color: white;
+    border-color: inherit;
+    border-width: 0;
+    border-style: none;
+}
+
+h4 {
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.col4 {
+    width: 40%;
+    /* display: flex; */
+}
+
+.col1 {
+    width: 10%;
+    display: flex;
+}
+
+.col6 {
+    width: 50%;
+    display: flex;
+}
+
+.col10 {
+    width: 100%;
+    display: flex;
+    padding: 1rem 0 0 0;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.inputField {
+    width: 50%;
+    display: inline-block;
+    margin: auto 0 auto 1rem;
+}
+
+.inputField2 {
+    width: 100%;
+    display: inline;
+    margin: auto 0 auto 1rem;
+}
+
+.radio {
+    height: 15px;
+    width: 5%;
+    /* margin-right: 10%; */
+    display: inline-block;
+}
+
+.radio-div {
+    width: 100%;
+}
+
+.gender {
+    display: inline-block;
+    margin-right: 10%;
+    position: relative;
+}
+
+.textLabel {
+    margin: 0 0 2px 0;
+}
+
+.button {
+    float: right;
+    margin: 1rem 0 0 0;
+}
+
+.kodecamp {
+    margin-left: 25%;
+    display: flex;
+}
+
+.kodecamp img {
+    width: 50%;
+    display: flex;
+}
+
+.signUp {
+    padding-left: 1rem;
+}
