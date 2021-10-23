@@ -24,11 +24,19 @@ select {
     height: 30px;
 }
 
-button {
+.enabled {
     border-radius: 0.5rem 0 0.5rem 0;
     background-color: blue;
     padding: 0.5rem 3rem 0.5rem 3rem;
     color: white;
+    border-color: inherit;
+    border-width: 0;
+    border-style: none;
+}
+
+button {
+    border-radius: 0.5rem 0 0.5rem 0;
+    padding: 0.5rem 3rem 0.5rem 3rem;
     border-color: inherit;
     border-width: 0;
     border-style: none;
